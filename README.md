@@ -23,3 +23,19 @@
 - PC(タブレット不可、Chromebook非推奨)
 - GitHubアカウント：個人のもの、Repositoryは講座内で作成する
 - Figmaアカウント：個人のもの
+
+自身のコンピュータにはGitをインストールし、自身のGitHubアカウントと連携しておいてください。  
+
+Windowsのインストールは[こちら](https://qiita.com/takeru-hirai/items/4fbe6593d42f9a844b1c)を参考にしてください。  
+
+macOSのインストールは以下のとおりです。
+
+```bash
+brew install git
+```
+
+Linuxのインストールの例は以下のとおりです。
+
+```bash
+sudo apt-get install git
+```
