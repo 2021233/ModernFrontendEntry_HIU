@@ -25,17 +25,18 @@
 - Figmaアカウント：個人のもの
 
 自身のコンピュータにはGitをインストールし、自身のGitHubアカウントと連携しておいてください。  
+アカウント連携は[`gh`コマンド](https://qiita.com/s_yasunaga/items/110d21828bd4f578850d)が楽です。
 
 Windowsのインストールは[こちら](https://qiita.com/takeru-hirai/items/4fbe6593d42f9a844b1c)を参考にしてください。  
 
 macOSのインストールは以下のとおりです。
 
 ```bash
-brew install git
+brew install git gh
 ```
 
 Linuxのインストールの例は以下のとおりです。
 
 ```bash
-sudo apt-get install git
+sudo apt-get install git gh
 ```
