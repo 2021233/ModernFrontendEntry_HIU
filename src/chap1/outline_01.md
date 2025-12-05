@@ -55,11 +55,8 @@ git checkout -b branch名
 git push -u origin branch名
 ```
 
-各回のメモは`src`内の各回のディレクトリに作成すること。  
-メモはテキスト形式(`.txt`)または Markdown 形式(`.md`)で作成すること。  
-(Word など Office 形式では git で差分を管理できないため)
-
-各回のメモは commit を作成して push すること。
+各回のメモはテキスト形式(`.txt`)または Markdown 形式(`.md`)で作成することを推奨。  
+各回の資料を書き換えてもよい。
 
 ```bash
 git add ./
