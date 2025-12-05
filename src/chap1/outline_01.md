@@ -356,7 +356,11 @@ npm install typescript
 作った関数を実行するにはTypeScriptファイルをJavaScriptファイルに変換する必要がある。
 
 ```bash
+# macOS, Linux
 ./node_modules/typescript/bin/tsc function.ts sample.ts
+
+# windows
+npx tsc function.ts sample.ts
 ```
 
 エラーがなければなにも出力されない。  
