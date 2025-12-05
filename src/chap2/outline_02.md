@@ -360,7 +360,7 @@ React compiler を使えば適切にメモ化されるため、手動でメモ�
 1. [figma](https://www.fimga.com/)にアクセスし、ログインする。
 2. 左サイドバーから「すべてのプロジェクト」>「Team project」の順で開く。
 3. 「+作成」>「デザイン」の順で新しいデザインファイルを作成する。
-4. [sample.png](https://github.com/2021233/IntroductionModernFrontEnd_HIU/tree/main/src/Lecture_02/sample.pnt)をデザインファイルに貼り付ける
+4. [sample.png](https://github.com/2021233/IntroductionModernFrontEnd_HIU/tree/main/src/chap2/sample.pnt)をデザインファイルに貼り付ける
 
 ### 進め方
 
@@ -371,7 +371,7 @@ React compiler を使えば適切にメモ化されるため、手動でメモ�
 
 まだ細かくコンポーネントに切り分けることができそうならば、その部分だけ切り取ってコピーして再度コンポーネントに切り分けてみるとよい。
 
-[参考画像](https://github.com/2021233/IntroductionModernFrontEnd_HIU/tree/main/src/Lecture_02/refrence.png)
+[参考画像](https://github.com/2021233/IntroductionModernFrontEnd_HIU/tree/main/src/chap2/refrence.png)
 
 ### Tips
 
