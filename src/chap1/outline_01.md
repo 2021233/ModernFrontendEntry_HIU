@@ -307,14 +307,14 @@ npm -v
 ### TypeScript を書く準備
 
 TypeScript と実行ソフトウェアを NPM を使ってインストールする。  
-cloneした講座ディレクトリ内の`src/Lecture_01`に移動する。
+cloneした講座ディレクトリ内の`src/chap1`に移動する。
 
 ```
 # ディレクトリを移動
-cd src/Lecture_01
+cd src/chap1
 ```
 
-`src/Lecture_01`に TypeScript をインストールする。
+`src/chap1`に TypeScript をインストールする。
 
 ```
 npm install typescript
@@ -350,3 +350,23 @@ npm install typescript
 
 全ての金額は小数点第 1 位で四捨五入すること。  
 また、予期しない値を渡した場合はエラーとなること。(エラー表示を実装してもよい)
+
+#### 関数の実行の仕方
+
+作った関数を実行するにはTypeScriptファイルをJavaScriptファイルに変換する必要がある。
+
+```bash
+./node_modules/typescript/bin/tsc function.ts sample.ts
+```
+
+エラーがなければなにも出力されない。  
+完了すると同じ名前でJavaScriptファイルが作られる。上の例のように`function.ts`と`sample.ts`を変換した場合は`function.js`と`sample.js`が作られる。
+
+JavaScriptファイルの実行は`node`コマンドを使用する。
+
+```bash
+node sample.js
+```
+
+これで要件通りの出力ができるか確認する。
+
