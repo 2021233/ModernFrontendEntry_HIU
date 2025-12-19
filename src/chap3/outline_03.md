@@ -25,6 +25,20 @@ React コンポーネントのロジックにおいて重要なHookについて�
 ## Hook とは
 
 React の特徴として Hook という機能がある。  
+
+```typescript
+export function Counter() {
+    // ここに処理を書く
+    return (
+        <div>
+            <button>+</button>
+            <span>0</span>
+            <button>-</button>
+        </div>
+    );
+}
+```
+
 Hook とは、React の機能を関数コンポーネントで扱うことができるようにしたもの。Hook の登場前はクラスコンポーネントでしか利用できなかった機能が、Hook が登場したことで関数コンポーネントで記述することが主流になった。  
 Hook を用いることで以下のような機能が利用できる。
 
