@@ -1,3 +1,10 @@
+# 前回のあらすじ
+
+- React Hook：`useState`、`useEffect`、メモ化
+- ページのレンダリング方法：CSR、SSR
+- Webアプリケーションの方式：SPA、MPA
+- React RouterとNext(App Router)のページ遷移方法
+
 # 5. Next.jsの特徴的機能
 
 Nextの特徴的な機能について解説します。
